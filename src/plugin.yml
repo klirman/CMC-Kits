@@ -1,0 +1,21 @@
+name: ClashKits
+author: Sedge, bstrd
+version: 0.1
+main: me.sedge.purix.Main
+
+permissions:
+    scc.clearchat:
+      description: main clearchat permission.
+
+commands:
+  PvP:
+    aliases: [pvp, pvpclass]
+  Mage:
+    aliases: [mage, mageclass]
+  Ninja:
+    aliases: [ninja, ninjaclass]
+  Warrior:
+    aliases: [warrior, warriorclass]
+  Author:
+  stats:
+    aliases: [statistics, kills, deaths]
