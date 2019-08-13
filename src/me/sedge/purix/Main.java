@@ -17,7 +17,7 @@ public class Main extends JavaPlugin {
     public static Main plugin;
 
     public void onEnable(){
-        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[!] ClashMC - KitPvP has loaded successfully");
+        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[!] Hypixel.net - KitPvP has loaded successfully");
         getServer().getPluginManager().registerEvents (new EventsClass(), this);
         getServer().getPluginManager().registerEvents(new ArcherClass(), this);
         getServer().getPluginManager().registerEvents(new PlayerJoin(), this);
